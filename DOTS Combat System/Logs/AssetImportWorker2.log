@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker2
 -projectPath
 D:/Documents/GitHub Projects/Git/DOTSCombatSystem/DOTS Combat System
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker2.log
 -srvPort
 52693
 Successfully changed project path to: D:/Documents/GitHub Projects/Git/DOTSCombatSystem/DOTS Combat System
@@ -49,12 +49,12 @@ D:/Documents/GitHub Projects/Git/DOTSCombatSystem/DOTS Combat System
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14292] Host "[IP] 192.168.91.1 [Port] 0 [Flags] 2 [Guid] 3775382419 [EditorId] 3775382419 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0I5PA75) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7068] Host "[IP] 192.168.91.1 [Port] 0 [Flags] 2 [Guid] 4006684544 [EditorId] 4006684544 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0I5PA75) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14292] Host "[IP] 192.168.91.1 [Port] 0 [Flags] 2 [Guid] 3775382419 [EditorId] 3775382419 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0I5PA75) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7068] Host "[IP] 192.168.91.1 [Port] 0 [Flags] 2 [Guid] 4006684544 [EditorId] 4006684544 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0I5PA75) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 7217.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7220.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -74,40 +74,40 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.952101 seconds.
-- Loaded All Assemblies, in 22.243 seconds
+Registered in 0.924655 seconds.
+- Loaded All Assemblies, in 22.241 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.814 seconds
-Domain Reload Profiling: 24042ms
-	BeginReloadAssembly (17162ms)
+- Finished resetting the current domain, in  1.829 seconds
+Domain Reload Profiling: 24052ms
+	BeginReloadAssembly (17182ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (273ms)
-	RebuildNativeTypeToScriptingClass (91ms)
-	initialDomainReloadingComplete (1348ms)
-	LoadAllAssembliesAndSetupDomain (3352ms)
-		LoadAssemblies (17156ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (290ms)
+	RebuildNativeTypeToScriptingClass (82ms)
+	initialDomainReloadingComplete (1343ms)
+	LoadAllAssembliesAndSetupDomain (3323ms)
+		LoadAssemblies (17175ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3340ms)
-			TypeCache.Refresh (3330ms)
-				TypeCache.ScanAssembly (1802ms)
+		AnalyzeDomain (3306ms)
+			TypeCache.Refresh (3299ms)
+				TypeCache.ScanAssembly (1774ms)
 			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1816ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1832ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1470ms)
+		SetupLoadedEditorAssemblies (1485ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (48ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (47ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (13ms)
-			ProcessInitializeOnLoadAttributes (1019ms)
-			ProcessInitializeOnLoadMethodAttributes (340ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (1051ms)
+			ProcessInitializeOnLoadMethodAttributes (320ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,57 +117,57 @@ Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Pro
 Worker process is ready to serve import requests
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 20.402 seconds
-Refreshing native plugins compatible for Editor in 30.26 ms, found 4 plugins.
+- Loaded All Assemblies, in 20.350 seconds
+Refreshing native plugins compatible for Editor in 43.36 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 2572ms
+TypeManager.Initialize took: 2517ms
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 10.143 seconds
-Domain Reload Profiling: 30539ms
-	BeginReloadAssembly (792ms)
+- Finished resetting the current domain, in  9.940 seconds
+Domain Reload Profiling: 30281ms
+	BeginReloadAssembly (804ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (32ms)
+		DisableScriptedObjects (30ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (183ms)
-	RebuildNativeTypeToScriptingClass (57ms)
-	initialDomainReloadingComplete (236ms)
-	LoadAllAssembliesAndSetupDomain (19123ms)
-		LoadAssemblies (16169ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (194ms)
+	RebuildNativeTypeToScriptingClass (64ms)
+	initialDomainReloadingComplete (253ms)
+	LoadAllAssembliesAndSetupDomain (19024ms)
+		LoadAssemblies (16113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3423ms)
-			TypeCache.Refresh (3035ms)
-				TypeCache.ScanAssembly (2803ms)
-			ScanForSourceGeneratedMonoScriptInfo (196ms)
-			ResolveRequiredComponents (186ms)
-	FinalizeReload (10148ms)
+		AnalyzeDomain (3377ms)
+			TypeCache.Refresh (3069ms)
+				TypeCache.ScanAssembly (2827ms)
+			ScanForSourceGeneratedMonoScriptInfo (203ms)
+			ResolveRequiredComponents (100ms)
+	FinalizeReload (9944ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (9065ms)
+		SetupLoadedEditorAssemblies (8864ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
+			InitializePlatformSupportModulesInManaged (38ms)
 			SetLoadedEditorAssemblies (26ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1027ms)
-			ProcessInitializeOnLoadAttributes (5902ms)
-			ProcessInitializeOnLoadMethodAttributes (2031ms)
-			AfterProcessingInitializeOnLoad (44ms)
+			BeforeProcessingInitializeOnLoad (1023ms)
+			ProcessInitializeOnLoadAttributes (5767ms)
+			ProcessInitializeOnLoadMethodAttributes (1944ms)
+			AfterProcessingInitializeOnLoad (63ms)
 			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (45ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
-Refreshing native plugins compatible for Editor in 41.85 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (58ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 42.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6885 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 121 unused Assets / (0.6 MB). Loaded Objects now: 7318.
-Memory consumption went from 269.9 MB to 269.3 MB.
-Total: 38.084600 ms (FindLiveObjects: 1.743600 ms CreateObjectMapping: 1.778400 ms MarkObjects: 33.144100 ms  DeleteObjects: 1.414300 ms)
+Memory consumption went from 269.9 MB to 269.2 MB.
+Total: 32.933700 ms (FindLiveObjects: 1.713700 ms CreateObjectMapping: 1.849000 ms MarkObjects: 28.336000 ms  DeleteObjects: 1.030500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:DOTSType/UnityEditor.Snap.SnapSettingsWindow: 5fb792d44d0bbc465fb792d44d0bbc46 -> 
@@ -1698,12 +1698,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:DOTSType/UnityEditor.Search.ASIEI05: 443471f4b46f9067443471f4b46f9067 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 27.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 41.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6 unused Assets / (0.6 MB). Loaded Objects now: 7318.
-Memory consumption went from 139.2 MB to 138.7 MB.
-Total: 33.173800 ms (FindLiveObjects: 1.420300 ms CreateObjectMapping: 1.774600 ms MarkObjects: 29.553600 ms  DeleteObjects: 0.420900 ms)
+Memory consumption went from 139.2 MB to 138.6 MB.
+Total: 36.121900 ms (FindLiveObjects: 1.613800 ms CreateObjectMapping: 1.874100 ms MarkObjects: 32.120600 ms  DeleteObjects: 0.509100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -3236,326 +3236,417 @@ AssetImportParameters requested are different than current active one (requested
   custom:DOTSType/UnityEditor.Search.ASIEI05: 443471f4b46f9067443471f4b46f9067 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1044.250988 seconds.
-  path: Assets/Resources/URP/Settings/URP-Performant-Renderer.asset
-  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/URP/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7808d8c79bf6df03b031c5b6e4a7c960') in 1.106370 seconds
+  Time since last request: 1044.159661 seconds.
+  path: Assets/Resources/Models/Greid/documentation/Greid_readme.html
+  artifactKey: Guid(39ea59e3769581b449f2f38994722a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/documentation/Greid_readme.html using Guid(39ea59e3769581b449f2f38994722a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7a2fe840091eaa5c5d968964d0d3975') in 0.913773 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@attack_ready.FBX
-  artifactKey: Guid(ea75191a9cd6c0a418668125430271d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@attack_ready.FBX using Guid(ea75191a9cd6c0a418668125430271d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8851f4064ac9b0e0b707da4e34cf7e8e') in 0.953676 seconds
+  Time since last request: 0.000085 seconds.
+  path: Assets/Resources/Models/Greid/materials/greid.mat
+  artifactKey: Guid(58dce66cacf8e5c4eb8f4e4b86de9267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/materials/greid.mat using Guid(58dce66cacf8e5c4eb8f4e4b86de9267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e58b3388205a8a5f63294838ae395ab2') in 4.105530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Resources/Models/septimus/animations/septimusAnimController.controller
+  artifactKey: Guid(6862921ea76ead14ebc259a041c1e234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/animations/septimusAnimController.controller using Guid(6862921ea76ead14ebc259a041c1e234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e698a9faac01f8e441dca1fd6933a9d0') in 1.129633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Resources/Models/septimus/animations/septimus@idle_weapon_check.FBX
+  artifactKey: Guid(11b86fb168584d0448621df4d9adaa08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/animations/septimus@idle_weapon_check.FBX using Guid(11b86fb168584d0448621df4d9adaa08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d6517e7115ddafa09401b45f000ebfa') in 0.475613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Resources/Models/septimus/animations/septimus@attack_chop.FBX
+  artifactKey: Guid(56b415ce98d736646b23deece2c0f0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/animations/septimus@attack_chop.FBX using Guid(56b415ce98d736646b23deece2c0f0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '692f67adbd1c35c5a3ff0d4d733c9319') in 0.162058 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 62
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Attack_Thrust.FBX
-  artifactKey: Guid(5dfaee36ff4e2f149bb20e1595683133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Attack_Thrust.FBX using Guid(5dfaee36ff4e2f149bb20e1595683133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a9284367751e4c3ee5289b1cc8c576c') in 0.956094 seconds
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/Models/Greid/animations/Greid@Idle_Beard.FBX
+  artifactKey: Guid(a40e8010f90ba8e4a81cd493d24b7ad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Idle_Beard.FBX using Guid(a40e8010f90ba8e4a81cd493d24b7ad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1b79f256022283ff5e46858bf76e10c') in 0.224972 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 66
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Resources/Models/Greid/animations/GreidAnimController.controller
-  artifactKey: Guid(269fe9c3c87e42647bfca417c2d6dffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/GreidAnimController.controller using Guid(269fe9c3c87e42647bfca417c2d6dffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7e98f560044cbe36a088d8bd094dffd') in 0.060853 seconds
+  Time since last request: 0.000117 seconds.
+  path: Assets/Resources/Models/Greid/animations/Greid@Hit_Right.FBX
+  artifactKey: Guid(a1bbc72d517d51b499d7743f52645e6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Hit_Right.FBX using Guid(a1bbc72d517d51b499d7743f52645e6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c04b98536d10623b5d6270677dd4d4b0') in 0.191875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Resources/URP/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/URP/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ec88559aabbd997497eab72d1e9bf7c') in 0.414746 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Resources/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61616d0ac8440dfc869a6a9ac67729dd') in 0.036733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@counterattack_thrust.FBX
-  artifactKey: Guid(75d1affa3c8deb74f9d00860604454c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@counterattack_thrust.FBX using Guid(75d1affa3c8deb74f9d00860604454c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d7f174884b0ad01f0f5e6dd7096acca') in 0.189511 seconds
+  Time since last request: 0.000101 seconds.
+  path: Assets/Resources/Models/septimus/animations/septimus@defense_arrows.FBX
+  artifactKey: Guid(a50004bbccc06da4bbfe6b61065ef24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/animations/septimus@defense_arrows.FBX using Guid(a50004bbccc06da4bbfe6b61065ef24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dd26ec281646804527d81fceb70cc09') in 0.179946 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 62
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Resources/URP/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/URP/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4f920f2341f6bc9877ee150682e4c73') in 0.073363 seconds
+  Time since last request: 0.000080 seconds.
+  path: Assets/Resources/Models/Greid/animations/Greid@Block_Sword.FBX
+  artifactKey: Guid(12895e006fc5855439d0943a502d744f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Block_Sword.FBX using Guid(12895e006fc5855439d0943a502d744f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16d994425d2b0f1719ce0d22dade9565') in 0.190727 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 66
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@attack_combo.FBX
-  artifactKey: Guid(b96e0a9f9cb088849928d18d42d3c765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@attack_combo.FBX using Guid(b96e0a9f9cb088849928d18d42d3c765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1c77d56fc0a225baba1400958630a0c') in 0.503831 seconds
+  Time since last request: 0.000065 seconds.
+  path: Assets/Resources/Models/Greid/animations/Greid@Attack_Thrust_Upper.FBX
+  artifactKey: Guid(e996b34e921ca3f4491cd6c1281c7071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Attack_Thrust_Upper.FBX using Guid(e996b34e921ca3f4491cd6c1281c7071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48e6ddc3d4bf686e993b2af66bf1c71d') in 0.243203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Resources/Models/septimus/textures/septimus_ao.tga
+  artifactKey: Guid(ac07685a88cbbdb4ea2bf4c5095290de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/textures/septimus_ao.tga using Guid(ac07685a88cbbdb4ea2bf4c5095290de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ca844aded88b5becb6b3f10e1e442f5') in 0.449121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Resources/Models/Greid/animations/Greid@Duck.FBX
+  artifactKey: Guid(b12bb6a3ae0276641803f1fb14a2266c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Duck.FBX using Guid(b12bb6a3ae0276641803f1fb14a2266c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05521519b52349c2dc7bc9a73bb720dd') in 0.168678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Resources/Models/septimus/documentation/Septimus_readme.docx
+  artifactKey: Guid(351b3bbe7fbed8a4097d3a3597e815a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/documentation/Septimus_readme.docx using Guid(351b3bbe7fbed8a4097d3a3597e815a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17fa81804a01de35722ce41ac400d8a6') in 0.031893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/Models/septimus/animations/septimus@attack_thrust.FBX
+  artifactKey: Guid(d914f14aca8c8d945976ab411f8c1453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/animations/septimus@attack_thrust.FBX using Guid(d914f14aca8c8d945976ab411f8c1453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2eee056c80a95b7a2dc46bb9443de894') in 0.152035 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 62
 ========================================================================
 Received Import Request.
   Time since last request: 0.000061 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@walk.FBX
-  artifactKey: Guid(5e9c27917550880468f9a4cec4d4fb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@walk.FBX using Guid(5e9c27917550880468f9a4cec4d4fb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c462d41fb06d2abcdbfc0870c08b0e0') in 0.250707 seconds
+  path: Assets/Resources/Models/septimus/animations/septimus@block_shield.FBX
+  artifactKey: Guid(1589335c877b6a34e8ef6bea0e2e4eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/animations/septimus@block_shield.FBX using Guid(1589335c877b6a34e8ef6bea0e2e4eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1539647007947dd5031a10e74b9fe524') in 0.137283 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@run_pillum.FBX
-  artifactKey: Guid(1d79d8f6c7e556e4aa9ecf0413202861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@run_pillum.FBX using Guid(1d79d8f6c7e556e4aa9ecf0413202861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a332d98d750dab7032b8ff698eab0a13') in 0.282209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Walk.FBX
-  artifactKey: Guid(688e101541c01044fa66e4c91c6e6069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Walk.FBX using Guid(688e101541c01044fa66e4c91c6e6069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2c2a5f1669b14d98b66b756d77697a4') in 0.214159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Hit_Left.FBX
-  artifactKey: Guid(12f4cbfc47fc8e04680b755e45b2de18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Hit_Left.FBX using Guid(12f4cbfc47fc8e04680b755e45b2de18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5c5362f4034e49cecc266d22d08d309') in 0.214309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Resources/Models/septimus/meshes/septimus.FBX
-  artifactKey: Guid(37b2e3db6effcb643ac67c866f6656b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/meshes/septimus.FBX using Guid(37b2e3db6effcb643ac67c866f6656b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5521bc6872575ac1e1a7b7185b001f0') in 0.230181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 96
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Resources/Models/Greid/documentation/PS_Layers/Layer6_Shield_Red.png
-  artifactKey: Guid(4726a0613f70bda49aae8ebb56f77812) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/documentation/PS_Layers/Layer6_Shield_Red.png using Guid(4726a0613f70bda49aae8ebb56f77812) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb08c10b21d5bafcfc8e5eb919713704') in 0.572976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Resources/Models/septimus/documentation/Septimus_readme.rtf
-  artifactKey: Guid(c5b6f161bfe7af44b964ad8b5209376d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/documentation/Septimus_readme.rtf using Guid(c5b6f161bfe7af44b964ad8b5209376d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1915ebd02e807a2c09ada1cd256f86c') in 0.046688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Attack_Combo.FBX
-  artifactKey: Guid(ca826fbba0d639947b2058dad22e5af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Attack_Combo.FBX using Guid(ca826fbba0d639947b2058dad22e5af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a58854079b38fce08b75ed4ddfaf50fe') in 0.232448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@killed_fall_forward.FBX
-  artifactKey: Guid(aa41d0a2255433f4c85aa177b441030f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@killed_fall_forward.FBX using Guid(aa41d0a2255433f4c85aa177b441030f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbe3ec5c128f73a10cf3962ce8208c34') in 0.152204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Block_Shield.FBX
-  artifactKey: Guid(af525b1f2c2e7c84b8a225e2329ef0f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Block_Shield.FBX using Guid(af525b1f2c2e7c84b8a225e2329ef0f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6c6eec6b24d91bb9b023e85f6062c8e') in 0.221141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Resources/URP/Settings/URP-HighFidelity.asset
-  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/URP/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70393e6b6f1ec4be4bf0f0337ea70520') in 0.281209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Resources/Models/Greid/documentation/PS_Layers/Layer7_Shield_Green.png
-  artifactKey: Guid(2f7ef2ea0c0193d46b5ba9e89d3fd36c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/documentation/PS_Layers/Layer7_Shield_Green.png using Guid(2f7ef2ea0c0193d46b5ba9e89d3fd36c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8dd4b840a30ef0267726724491d0d42') in 0.221627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@attack_move.FBX
-  artifactKey: Guid(d3e0fb2fe47036449a9b14394ad5c3b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@attack_move.FBX using Guid(d3e0fb2fe47036449a9b14394ad5c3b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c80d0451e7148d9c4f92a14b9a1b84d5') in 0.136615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Resources/Models/Greid/Greid.FBX
-  artifactKey: Guid(549a575afa3e4c945829f4966f5176b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/Greid.FBX using Guid(549a575afa3e4c945829f4966f5176b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05e7deb72edac424dfb305fe2784b2fc') in 0.221657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 105
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Resources/Models/Greid/textures/Greid_metallic_gloss.tga
-  artifactKey: Guid(f23fbbf10b2f38a4fa7e21bba7f0b6dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/textures/Greid_metallic_gloss.tga using Guid(f23fbbf10b2f38a4fa7e21bba7f0b6dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '43bd1f2b5b564cca291ca201854f66f1') in 0.359499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Fall_Back.FBX
-  artifactKey: Guid(5f44b75351d568e43b818b7130d232d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Fall_Back.FBX using Guid(5f44b75351d568e43b818b7130d232d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '960584f871a3e04c400d24194885495d') in 0.197693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Resources/Models/septimus/textures/septimus_normal.tga
-  artifactKey: Guid(23a5b95c74e62d743a13945033156176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/textures/septimus_normal.tga using Guid(23a5b95c74e62d743a13945033156176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30fa21223cde11f216d6000691ec1d4f') in 0.194187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@idle.FBX
-  artifactKey: Guid(99315efa98130364c9b07991d050a5b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@idle.FBX using Guid(99315efa98130364c9b07991d050a5b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a03c53b4a16591094b93bfa0d2ebd66') in 0.184745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 58
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Resources/URP/Settings/URP-Balanced-Renderer.asset
-  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/URP/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56ede2741a6dba02d344748c7b1b53d3') in 0.149040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@block.FBX
-  artifactKey: Guid(2441accd810cfd34d80215ada844604a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@block.FBX using Guid(2441accd810cfd34d80215ada844604a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89bc1d341124f3a02de0328b47875bcd') in 0.115655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@killed_fall_back.FBX
-  artifactKey: Guid(ad6092f7475450d46853c0d4de241826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@killed_fall_back.FBX using Guid(ad6092f7475450d46853c0d4de241826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2689c558a09340863a69af34950e1b30') in 0.132550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Resources/URP/Settings/URP-HighFidelity-Renderer.asset
-  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/URP/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6effe48f9d1cf7473fa34f7fc61c53fe') in 0.138937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Resources/Models/septimus/meshes/pillum_only.FBX
-  artifactKey: Guid(262eb0e5f6a95844dafa047c5cdb14f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/meshes/pillum_only.FBX using Guid(262eb0e5f6a95844dafa047c5cdb14f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7eea942836785530f6fb38a35fa5caf5') in 0.147268 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Lean_Back.FBX
-  artifactKey: Guid(5e236001a021fc64e8b51ce43aba73ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Lean_Back.FBX using Guid(5e236001a021fc64e8b51ce43aba73ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ec0f24732f9a629fb43a5b386fad417') in 0.257238 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Fall_Forward.FBX
-  artifactKey: Guid(246b5db9a70f78a4e8587f53f658b1a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Fall_Forward.FBX using Guid(246b5db9a70f78a4e8587f53f658b1a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e25b5bb6ddaab5ef50cd63f85a3eae62') in 0.272133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Resources/Models/Greid/animations/Greid@Win.FBX
-  artifactKey: Guid(5652df23e8442f5469e4d4134cd6a343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/animations/Greid@Win.FBX using Guid(5652df23e8442f5469e4d4134cd6a343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d5660999ef58758cf6a8c102fb9b557') in 0.205308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Resources/Models/septimus/animations/septimus@walk_pillum.FBX
-  artifactKey: Guid(8ec696f50e911074bbf63c1d95d92038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/animations/septimus@walk_pillum.FBX using Guid(8ec696f50e911074bbf63c1d95d92038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5443d7db43959eed6271a6bb9d53c466') in 0.165561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Resources/Models/septimus/textures/septimus_metallic.tga
-  artifactKey: Guid(9f4a3e8d02057f2408bb9a1e92ba43d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/septimus/textures/septimus_metallic.tga using Guid(9f4a3e8d02057f2408bb9a1e92ba43d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '107ecdf745283ba8c6f22bcd8224e751') in 0.124340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Resources/URP/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/URP/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09d1d0a5c3553549d5a696a589b003db') in 0.086701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Resources/Models/Greid/scenes/Greid_test_scene.unity
-  artifactKey: Guid(3b3cfbdcda3fe8140a431a98ae05d894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/Models/Greid/scenes/Greid_test_scene.unity using Guid(3b3cfbdcda3fe8140a431a98ae05d894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9159671742630ce589766f1b69dc88f9') in 0.046559 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 65.365225 seconds.
-  path: Assets/Resources/URP/Settings/URP-Balanced-Renderer.asset
-  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/URP/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a547b33774e0fba89499e52edcecd8c4') in 0.110663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000083 seconds.
-  path: Assets/Resources/URP/Settings/URP-Performant.asset
-  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/URP/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2db546f45ab8e72f00b75cecb912d4c') in 0.010307 seconds
+  path: Assets/Resources/Models/Greid/animations/Greid@Walk_Attack.FBX
+  artifactKey: Guid(66e1237f733c1ee4a9cf06e06dbc929f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Walk_Attack.FBX using Guid(66e1237f733c1ee4a9cf06e06dbc929f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd88ab499e6f8f780289d59ef52bbdb6') in 0.204897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Resources/Models/Greid/animations/Greid@Idle_Battle.FBX
+  artifactKey: Guid(af4f23a1aa900d449b2e46f8ccfbd0c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Idle_Battle.FBX using Guid(af4f23a1aa900d449b2e46f8ccfbd0c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64ea823ad38a9ec2e45e88320a22470e') in 0.198816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Resources/Models/septimus/animations/septimus@attack_ready_pillum.FBX
+  artifactKey: Guid(02ec6b6b9235cf6478f1a559b9697470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/animations/septimus@attack_ready_pillum.FBX using Guid(02ec6b6b9235cf6478f1a559b9697470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1eb32565b669c074b4eee0b5205e5db3') in 0.169181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Resources/Models/Greid/textures/Greid_ao.tga
+  artifactKey: Guid(7f84c1a0ad3c4ce488eca9895fa116d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/textures/Greid_ao.tga using Guid(7f84c1a0ad3c4ce488eca9895fa116d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad0a6cfa80f4c828ca968e1b663a15e8') in 0.158779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Resources/Models/septimus/animations/septimus@attack_pillum_throw.FBX
+  artifactKey: Guid(45693c581bd748843ad9616115ee4cc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/animations/septimus@attack_pillum_throw.FBX using Guid(45693c581bd748843ad9616115ee4cc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f25750be2e2d8bb9592daaa0ccc23e3') in 0.133971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Resources/Models/Greid/animations/Greid@Run_Battle.FBX
+  artifactKey: Guid(22cac97c3193a834e94e95e889e108f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Run_Battle.FBX using Guid(22cac97c3193a834e94e95e889e108f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7245d2ad0a559d8632054e47945441a8') in 0.210438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/Models/Greid/documentation/Greid_readme.rtf
+  artifactKey: Guid(0cc55f4882aa21c43ab8b8df4426a312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/documentation/Greid_readme.rtf using Guid(0cc55f4882aa21c43ab8b8df4426a312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53d893e1aa15871d76c29828954731df') in 0.048543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Resources/Models/Greid/animations/Greid@Idle_Battle_Simple.FBX
+  artifactKey: Guid(fde6686f4a9a03342b0735fe777fff25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/animations/Greid@Idle_Battle_Simple.FBX using Guid(fde6686f4a9a03342b0735fe777fff25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbb437eaef6b6ec0f10ebb0306434c85') in 0.193448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Resources/Models/septimus/scenes/septimus_scene.unity
+  artifactKey: Guid(316cd3563c52e644bad363e482bda5eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/septimus/scenes/septimus_scene.unity using Guid(316cd3563c52e644bad363e482bda5eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52b29eb232df71951f432b4685cc5a87') in 0.047440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Resources/Models/Greid/scenes/Greid_test_sceneSettings.lighting
+  artifactKey: Guid(f56bb8b3173dff34b8977a54cf421dd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Greid/scenes/Greid_test_sceneSettings.lighting using Guid(f56bb8b3173dff34b8977a54cf421dd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f7e1021b77b3fc60c4451807d08ed8be') in 0.205985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 60.860129 seconds.
+  path: Assets/Resources/URP
+  artifactKey: Guid(c892bb814504e4d4189787bbb7781692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/URP using Guid(c892bb814504e4d4189787bbb7781692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f0a62f8eb7c403ea813753798bd735') in 0.002577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.834490 seconds.
+  path: Assets/Resources/URP/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/URP/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910559ff8801aab3d8f08fbf1481f4e7') in 0.001449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042972 seconds.
+  path: Assets/Resources/URP/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/URP/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b471ed0c9a8365d8ba8dd6036731fd0') in 0.074662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.267858 seconds.
+  path: Assets/Resources/URP/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/URP/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc33d86dc11f0a836ecdbb831f168a8') in 0.033566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Resources/URP/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/URP/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7c56138e3e119bc794ba0af840c89e') in 0.003932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Resources/URP/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/URP/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0c69e136a1daf70859ec10692babbc') in 0.003024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Resources/URP/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/URP/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf2edc17007ff6fd0d1d575c3f4be3d') in 0.015166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 100.770738 seconds.
+  path: Assets/Resources/Models/septimus
+  artifactKey: Guid(3608854d7ec34e34ab4095326f902473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/septimus using Guid(3608854d7ec34e34ab4095326f902473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923bd670c7a867fd34f59eefd996aded') in 0.001496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.513327 seconds.
+  path: Assets/Resources/Models/Greid
+  artifactKey: Guid(7dda7e338222d0242b7d7b0d7cbbdcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Greid using Guid(7dda7e338222d0242b7d7b0d7cbbdcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddeef186dcca31bc65bbde36962b5e4') in 0.001446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 59.884565 seconds.
+  path: Assets/Resources/Scenes/SampleScene
+  artifactKey: Guid(bc732d6517e4d38409512a206bdadbcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Scenes/SampleScene using Guid(bc732d6517e4d38409512a206bdadbcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6723201c55a8941de35fc6e7245688dc') in 0.040774 seconds
+Number of updated asset objects reloaded before import = 2
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Resources/URP/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/URP/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5fbc838ccb5e3f3b385cd909ec570588') in 0.138964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.315788 seconds.
+  path: Assets/SceneDependencyCache/d14d10208931b72fc72478b010e4fff3.sceneWithBuildSettings
+  artifactKey: Guid(d14d10208931b72fc72478b010e4fff3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/d14d10208931b72fc72478b010e4fff3.sceneWithBuildSettings using Guid(d14d10208931b72fc72478b010e4fff3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Resources/Scenes/SampleScene/EntitiesSubScene.unity additively'
+Loaded scene 'Assets/Resources/Scenes/SampleScene/EntitiesSubScene.unity'
+	Deserialize:            1.654 ms
+	Integration:            4.108 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.085 ms
+	Total Operation Time:   5.851 ms
+ -> (artifact id: 'a05c3b28d8c570f5fc4e21aa0e6df4b2') in 3.226869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014902 seconds.
+  path: Assets/SceneDependencyCache/d14d10208931b72fc72478b010e4fff3.sceneWithBuildSettings
+  artifactKey: Guid(d14d10208931b72fc72478b010e4fff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SceneDependencyCache/d14d10208931b72fc72478b010e4fff3.sceneWithBuildSettings using Guid(d14d10208931b72fc72478b010e4fff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '691e0a9d51f5eba159c0d166becbd098') in 0.035661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.372287 seconds.
+  path: Assets/Resources/Scenes/SceneDependencyCache
+  artifactKey: Guid(549665d27308802428a9df7cd8a2a436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Scenes/SceneDependencyCache using Guid(549665d27308802428a9df7cd8a2a436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a36fc81e18ca62dee4e2d94e53c87d76') in 0.036816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.801596 seconds.
+  path: Assets/Resources/Scenes/SceneDependencyCache
+  artifactKey: Guid(01ce5e78162e05146aaabd3cae542615) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Scenes/SceneDependencyCache using Guid(01ce5e78162e05146aaabd3cae542615) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb7df50698a89b6f036eefa2b954fe73') in 0.036329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.867766 seconds.
+  path: Assets/SceneDependencyCache
+  artifactKey: Guid(ba28f39e1a222614e800152f714de477) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SceneDependencyCache using Guid(ba28f39e1a222614e800152f714de477) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd5b3fccaad7eadc6089075deca99aa6') in 0.036160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.233636 seconds.
+  path: Assets/Resources/Scenes/SceneDependencyCache
+  artifactKey: Guid(01ce5e78162e05146aaabd3cae542615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/SceneDependencyCache using Guid(01ce5e78162e05146aaabd3cae542615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f10e08bdb0f659df15593aa1d21381a') in 0.001421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.270171 seconds.
+  path: Assets/Resources/Scenes/SampleScene
+  artifactKey: Guid(bc732d6517e4d38409512a206bdadbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/SampleScene using Guid(bc732d6517e4d38409512a206bdadbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba354188ef06ecdd0871510042ec3ad') in 0.001379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.336106 seconds.
+  path: Assets/Resources/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b68b9603c0bf85852985c520e88c8e0') in 0.001476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 535.208884 seconds.
+  path: Assets/Resources/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5077575337c7040f1f5030f6cdeb4b9') in 0.045244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.708562 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(8187552f06312de478db40c769be7cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(8187552f06312de478db40c769be7cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361fe9b96aaf4727b67281140e356edd') in 0.002702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.588136 seconds.
+  path: Assets/Resources/Materials
+  artifactKey: Guid(d09e25f13dc100a42b20075d1863f00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials using Guid(d09e25f13dc100a42b20075d1863f00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd153624d6639bf1e8de40de1e8c2fe44') in 0.001405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.712209 seconds.
+  path: Assets/Resources/Materials
+  artifactKey: Guid(d09e25f13dc100a42b20075d1863f00a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Materials using Guid(d09e25f13dc100a42b20075d1863f00a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '563ef76cf3aaea49578108989b30a752') in 0.039636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.069971 seconds.
+  path: Assets/Resources/Materials/Basic.mat
+  artifactKey: Guid(61df54d02fec12048986eec3f14032dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Materials/Basic.mat using Guid(61df54d02fec12048986eec3f14032dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2f568d03b01c4321e9b1f0106291084') in 0.067751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.972530 seconds.
+  path: Assets/Resources/Materials/Basic.mat
+  artifactKey: Guid(61df54d02fec12048986eec3f14032dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Materials/Basic.mat using Guid(61df54d02fec12048986eec3f14032dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52a0a83364f5c0c08fc0994b6332ed32') in 0.051659 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
