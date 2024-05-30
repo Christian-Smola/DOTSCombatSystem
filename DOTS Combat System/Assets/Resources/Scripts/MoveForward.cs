@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst;
 using Unity.Entities;
 using Unity.Transforms;
 using UnityEngine;
@@ -13,10 +14,28 @@ namespace MoveForward
 
     public partial struct MovementSystem : ISystem
     {
+        public void OnCreate(ref SystemState state)
+        {
+            state.RequireForUpdate<_MoveForward>();
+        }
+
+        [BurstCompile]
         public void OnUpdate(ref SystemState state)
         {
-            foreach ((RefRW<LocalTransform> transform, RefRO<_MoveForward> move) in SystemAPI.Query<RefRW<LocalTransform>, RefRO<_MoveForward>>())
-                transform.ValueRW = transform.ValueRW.RotateY(move.ValueRO.movementSpeed * SystemAPI.Time.DeltaTime);
+            MoveCubeJob job = new MoveCubeJob { deltaTime = SystemAPI.Time.DeltaTime };
+
+            job.ScheduleParallel();
+        }
+
+        [BurstCompile]
+        public partial struct MoveCubeJob : IJobEntity
+        {
+            public float deltaTime;
+
+            public void Execute(ref LocalTransform transform, in _MoveForward move)
+            {
+                transform = transform.RotateY(move.movementSpeed * deltaTime);
+            }
         }
     }
 
