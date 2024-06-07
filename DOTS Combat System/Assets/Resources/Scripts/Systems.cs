@@ -29,21 +29,20 @@ namespace Systems
         [BurstCompile]
         public void OnUpdate(ref SystemState state)
         {
-            //MoveCubeJob job = new MoveCubeJob { deltaTime = SystemAPI.Time.DeltaTime };
-
-            //job.ScheduleParallel();
+            foreach (CubeAspect aspect in SystemAPI.Query<CubeAspect>())
+                aspect.MoveAndRotate(SystemAPI.Time.DeltaTime);
         }
 
-        [BurstCompile]
-        public partial struct MoveCubeJob : IJobEntity
-        {
-            public float deltaTime;
+        //[BurstCompile]
+        //public partial struct MoveCubeJob : IJobEntity
+        //{
+        //    public float deltaTime;
 
-            public void Execute(ref LocalTransform transform, in _Move move)
-            {
-                transform = transform.RotateY(move.movementSpeed * deltaTime);
-            }
-        }
+        //    public void Execute(ref LocalTransform transform, in _Move move)
+        //    {
+        //        transform = transform.Translate(move.movementDirection * 600);
+        //    }
+        //}
     }
 
     public partial struct RotateSystem : ISystem
@@ -70,6 +69,19 @@ namespace Systems
             {
                 transform = transform.RotateY(rotate.rotateSpeed * deltaTime);
             }
+        }
+    }
+
+    public readonly partial struct CubeAspect : IAspect
+    {
+        public readonly RefRW<LocalTransform> transform;
+        public readonly RefRO<_Rotate> rotate;
+        public readonly RefRO<_Move> move;
+
+        public void MoveAndRotate(float deltaTime)
+        {
+            transform.ValueRW = transform.ValueRO.RotateY(rotate.ValueRO.rotateSpeed * deltaTime);
+            transform.ValueRW = transform.ValueRO.Translate(move.ValueRO.movementDirection * deltaTime);
         }
     }
 }

@@ -12,7 +12,7 @@ public class Move : MonoBehaviour
         public override void Bake(Move authoring)
         {
             Entity entity = GetEntity(TransformUsageFlags.Dynamic);
-            AddComponent(entity, new Systems._Move { movementSpeed = authoring.MovementSpeed });
+            AddComponent(entity, new Systems._Move { movementSpeed = authoring.MovementSpeed, movementDirection = authoring.MovementDirection });
         }
     }
 }
