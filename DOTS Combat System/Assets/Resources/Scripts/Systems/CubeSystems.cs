@@ -6,7 +6,7 @@ using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
 
-namespace Systems
+namespace CubeSystems
 {
     public struct _Move : IComponentData
     {
